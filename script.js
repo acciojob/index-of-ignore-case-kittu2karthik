@@ -1,5 +1,6 @@
-function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+function indexOfIgnoreCase(str, subStr) {
+    if (!str || !subStr) return -1; // Handle empty or null inputs
+    return str.toLowerCase().indexOf(subStr.toLowerCase());
 }
 
 // Please do not change the code below
